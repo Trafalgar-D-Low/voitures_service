@@ -70,3 +70,8 @@ E2.affecterVoiture(V2)
 
 E1.afficherInformations()
 E2.afficherInformations()
+
+E1.retirerVoiture()
+
+E1.afficherInformations()
+V1.afficherInformations()
