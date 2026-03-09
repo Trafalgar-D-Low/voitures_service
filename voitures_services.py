@@ -57,3 +57,10 @@ E2 = Employe(numeroPermis="P456", nom="Martin", prenom="Claire")
 V1 = Voiture(matricule="AA111", annee=2020, marque="Toyota", kilometrage=15000)
 V2 = Voiture(matricule="BB222", annee=2019, marque="Honda", kilometrage=20000)
 V3 = Voiture(matricule="CC333", annee=2022, marque="BMW", kilometrage=5000)
+
+E1.afficherInformations()
+E2.afficherInformations()
+
+V1.afficherInformations()
+V2.afficherInformations()
+V3.afficherInformations()
