@@ -1,5 +1,4 @@
 class Employe:
-
     def __init__(self, numeroPermis, nom, prenom):
         self.numeroPermis = numeroPermis
         self.nom = nom
@@ -33,3 +32,11 @@ class Employe:
         self.voitureService.chauffeur = None
         self.voitureService = None
         print("Voiture retirée")
+
+class Voiture:
+    def __init__(self, matricule, annee, marque, kilometrage):
+        self.matricule = matricule
+        self.annee = annee
+        self.marque = marque
+        self.kilometrage = kilometrage
+        self.chauffeur = None
